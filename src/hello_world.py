@@ -1,0 +1,10 @@
+print ("ay mi gatito miau miau")
+print ("ay mi gatito miau miau")
+print ("ay mi gatito miau miau") 
+print ("ay mi gatito miau miau")
+print ("ay mi gatito miau miau") 
+print ("ay mi gatito miau miau") 
+print ("ay mi gatito miau miau")
+print ("ay mi gatito miau miau")
+
+print (2335242-234234+23524235-4523+2532352)
