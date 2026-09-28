@@ -43,6 +43,31 @@ print(bicycles[3], bicycles[4])
 """cuando es 'print(bicycles) es una variable tipo lista'
    cuando especificas que elemto de la lista 'print(bicycles[1]) se vuelve una vairable  tipo string' """
 
+## Tambien se pueden poner Floats y enteros 
+"""
+bicycles = ["trek", "cannodale", "redline", "specialized", "wheel", 3.23, 67]
+print(bicycles[6])
+print(bicycles[5])
 
+"""
+
+bicycles = ["trek", "cannodale", "redline", "specialized", "wheel"]
+print(bicycles[0].upper())
+## empiezan en  0 las listas
+#######
+# como acceder al ultimo elemnto de la lista
+print(bicycles[-1])
+print(bicycles[-2])
+"""0, 1, 2, 3, 4 para los elemntos en orden 
+   -1, -2, -3, -4, para ir desde el ultimmo al primero"""
+
+## Utilizar  vlaores de una lista
+
+message = f"mi primera bicicleta fue una con {bicycles [-1]}"
+print(message)
+
+## como esta lista es de variable string se pueden poner sus metodos"metodos strings"
+message = f"mi primera bicicleta fue una con {bicycles [-1].upper()}"
+print(message)
 
 
