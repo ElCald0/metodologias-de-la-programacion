@@ -99,9 +99,11 @@ print(people)
 
 ## tarea estudiar el metofo de la lista .reverse()
 # metodos build-in: sorted(), len()
-
-
-
+print("\selecionar elementos de una lista con dos dos listas".upper())
+variables = [["suburban","subaru"]["pepe", "juan"]]
+print(variables)
+print(variables[0])
+print(variables[0][1])
 
 
 
