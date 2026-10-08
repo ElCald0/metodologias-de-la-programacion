@@ -64,5 +64,3 @@ print (the_better)
 ###3investigar metodo .join() de los strings
 
 
-
- 
