@@ -56,6 +56,33 @@ print(age < 21) #true
 print(age <=21) #true
 print(age >21) #false 
 print(age >=21) #false
+print("\n")
 
+#--------------------------------------------#
+# MULTIPLE CONDITION
+#--------------------------------------------#
+print("\n multiple condition".upper())
+age1=22
+age2=18
+print("operacion and")
+print(age1>=21 and age2>=21)#false
+print(age1>=21 and age2>=18)#true
+
+print("\n")
+
+print("operacion OR")
+print(age1>=21 or age2>=21)
+
+food=["chilaquiles", "flautas", "gorditas", "tamales"]
+print("\n nopales esta en la lista?")
+print("nopales" in food)
+print("\t gorditas esta en la lista?")
+print("gorditas" in food)
+
+print("\n")
+print("doble negacion")
+banned_user=["adrew", "carolina", "david"]
+user= "marie"
+print(user not in banned_user)#true
 
 
